@@ -1,0 +1,7 @@
+<templates>
+    <t t-name="todo.template" owl="1">
+        <div class="p-3">
+            <t t-esc="props.id"/>. <t t-esc="props.description"/>
+        </div>
+    </t>
+</templates>

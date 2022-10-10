@@ -1,0 +1,9 @@
+<templates>
+    <t t-name="counter.clientaction" owl="1">
+        <div class="p-3">
+            hello counter
+            <p>Counter: <t t-esc="state.value"/></p>
+            <button class="btn btn-primary" t-on-click="increment">Increment</button>
+        </div>
+    </t>
+</templates>
